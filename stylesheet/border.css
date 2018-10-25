@@ -1,0 +1,18 @@
+.borderCSS{
+  /* border-style: dotted; */
+  /* border-style: solid; */
+  /* border-style: double; */
+  /* border-style: groove; */
+  /* border-style: ridge; */
+  /* border-style: inset; */
+  /* border-style: outset; */
+
+  /* border-style: none; */
+  /* border-style: hidden; */
+
+  /* border-style: dotted dashed none double; */
+  /* atas kanan bawah kiri */
+
+  border-style: dotted dashed;
+  /* value1 = atas dan bawah, valur 2= kiri dan kanan */
+}

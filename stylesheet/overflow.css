@@ -1,0 +1,17 @@
+.overflow1{
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  overflow: scroll;
+  /* scroll diberikan scroll horizontal dan vertikal meskipun teks tidak berlebihan */
+  /* hidden menyembunyikan teks yang lebih dari height dan width */
+}
+
+.overflow2{
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  overflow: auto;
+  /* scrool diberikan jika teks melebihi dari hegith dan width */
+  /* hidden menyembunyikan teks yang lebih dari height dan width */
+}

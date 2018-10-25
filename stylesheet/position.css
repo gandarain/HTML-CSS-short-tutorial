@@ -1,0 +1,36 @@
+.kotak{
+  position: static;
+  /* top memberi jarak dari elemen sebelumnya */
+  top:120px;
+  background-color: orange;
+}
+
+.belajar2{
+  position: absolute;
+  /* penulisan absolute lebih baik dgn pembungkus elemen lain nya yg memiliki value relatif */
+  right: 0;
+  bottom: 0;
+  /* setting default margin p yaitu 16px */
+  margin: 0px;
+  background-color: blue;
+}
+
+div{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.fix{
+  background-color: green;
+  position: fixed;
+  top: 40px;
+  left: 80px;
+}
+
+.stick{
+  background-color: pink;
+  position: sticky;
+  top: 40px;
+}

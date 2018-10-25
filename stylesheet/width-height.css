@@ -1,0 +1,20 @@
+p{
+  background-color: orange;
+}
+
+.normal{
+  height: 100px;
+  width: 150px;
+}
+
+.min-p{
+  /* ukuran height akan menyesuaikan dgn min-height, sehingga height nya akan > 100px jika teks nya banyak */
+  min-height: 100px;
+  width: 150px;
+}
+
+.max-p{
+  /* akan otomatis menset jika tinggi height nya max-height = 100px, sehingga jika teks nya banyak maka height nya tidak dpt mengikuti */
+  max-height: 100px;
+  width: 150px;
+}

@@ -1,0 +1,40 @@
+/* h1{
+  color: blue;
+}
+
+#Judul{
+  color: orange;
+}
+
+h2.belajar{
+  color: green;
+}
+
+h3, h4, h5{
+  color: red;
+} */
+
+#idwarna{
+  color: red;
+}
+
+h2{
+  color: #7fffd4;
+}
+
+#idwarna{
+  background-color: orange;
+}
+
+body{
+  /* background-image: url("https://i2.wp.com/udfauzi.com/wp-content/uploads/2017/11/1d149b69ee48b05ec0f859d605ec07d9.jpg?w=799&ssl=1");
+  background-repeat: no-repeat;
+  /* repeat-x : mengulang kesamping, repeat-y=mengulang kebawah */
+  /* background-position: center top; */
+
+  background: orange url("https://i2.wp.com/udfauzi.com/wp-content/uploads/2017/11/1d149b69ee48b05ec0f859d605ec07d9.jpg?w=799&ssl=1") no-repeat center top;
+}
+
+/* body{
+  background-image: url("../img/img1.jpg");
+} */

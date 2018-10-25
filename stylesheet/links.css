@@ -1,0 +1,19 @@
+a:link{
+  /* link = link yang belum pernah di kunjungi atau buka */
+  color: orange;
+}
+
+a:visited{
+  /* visited = link yang sudah pernah dibuka */
+  color: green;
+}
+
+a:hover{
+  color: red;
+  /* hover = mensorot link nya */
+}
+
+a:active{
+  /* active = klik dan tahan  */
+  color: yellow;
+}
